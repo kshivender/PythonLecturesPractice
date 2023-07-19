@@ -463,11 +463,96 @@
 # print("total of numbers=",s)
 
 ##### write a python program to check the number is strong number or not.
-x=int(input("enter the any number="))
-s=1
-for i in range (1,x+1):
-    s=s*i
-    print(i,end=" ")
+# x=input("enter the any number=")
+# m=0
+# for j in x:
+#     s=1
+#     for i in range (1,int(j)+1):
+#         s=s*i
+#         # print(i,end=" ")
 
-print("factorial of x: =",s)
+#     m=m+s
 
+# if int(x) == m:
+#     print(x, "is a strong number ")
+# else:
+#     print(x, "is not a strong number ")
+
+
+##### Write a python program to find Strong Numbers within a range of numbers.
+# x=int(input("enter intial range="))
+# y=int(input("enter final range="))
+# for n in range(x,y+1):
+#     m=0
+#     for j in str(n):
+#         s=1
+#         for i in range (1,int(j)+1):
+#             s=s*i
+
+#         m=m+s
+
+#     if int(n) == m:
+#         print(n, "is a strong number ")
+
+##### Write a python program to find the sum of an A.P. series.
+# x=int(input("enter the starting number of the A.P series="))
+# y=int(input("enter the number of items of the A.P series="))
+# d=int(input("enter the common diffrence of the A.P series="))
+# s=0
+# i=0
+# while i<y:
+#     print(x)
+#     x=x+d
+#     s = s+ x
+#     i=i+1
+
+# print("Sum of AP series = ",s)
+# ##############
+# s=0
+# for i in range(y):
+#     print(x)
+#     x=x+d
+#     s = s+ x
+
+# print("Sum of AP series = ",s)
+
+#####   Write a python program to find the sum of the G.P. series
+# x=int(input("enter the starting number of the G.P series="))
+# y=int(input("enter the number of items of the G.P series="))
+# d=int(input("enter the common ratio of the G.P series="))
+# s=0
+# for i in range(y):
+#     print(x)
+#     x=x*d
+#     s=s+x
+
+# print("Sum of GP series = ",s)
+
+#### Write a python program to print a string in reverse order.
+# y=(input("enter any string="))
+# rev = (str(y)[::-1])
+# print('reverse of string is =',rev)
+
+
+###### write a python program to find the length of a string without using the library function.
+
+# a=input("Enter string:")
+# s=0
+# for i in a:
+#     s=s+1
+# print("Length of the string is:",s)
+
+
+###### write a program to check the Armstrong number of n digits.
+
+n=int(input("enter the number of digit you want to enter="))
+x=input("enter the number=")
+s=0
+for i in x:
+    s= s+ (int(i)**n)
+    print(i,s)
+
+if int(x)==s:
+    print(s, " is a armstrong number")
+else:
+    print(s, 'is not an armstrong number')
