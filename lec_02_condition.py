@@ -237,10 +237,10 @@
 
 # a=int(input("enter the first value="))
 # b=int(input("enter the second value="))
-# # print("calulation method\n 1-additiom\n 2-subtraction\n 3-multiply\n 4-division")
-# # q=int(input("enter the number of method="))
+# print("calulation method\n 1-additiom\n 2-subtraction\n 3-multiply\n 4-division")
+# q=int(input("enter the number of method="))
 
-# q=int(input("calulation method\n 1-additiom\n 2-subtraction\n 3-multiply\n 4-division\nenter the number of method="))
+# # q=int(input("calulation method\n 1-additiom\n 2-subtraction\n 3-multiply\n 4-division\n enter the number of method="))
 # if q==1:
 #     d=a+b
 #     print("sum of these numbers",d)
@@ -292,10 +292,18 @@
 # elif a=='V':
 #     print('Very good')
 
+# a = int(input("enter the year = "))
+# if a%4==0 and a%100!=0:
+#     print("is leap year")
+# else:
+#     print(" this is not leap year")
 
 
-
-
+# a = int(input("enter the year = "))
+# if a%100==0 and a%400==0:
+#     print("is leap year")
+# else:
+#     print(" this is not leap year")
 
 
 

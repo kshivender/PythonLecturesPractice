@@ -374,7 +374,7 @@
 # #write a python program to check whether a given number is an Armstrong number or not
 # x=input("enter the number=")
 # s=0
-# for i in x:
+# for i in x:   
 #     s= s+ (int(i)**3)
 #     print(i,s)
 
@@ -545,14 +545,14 @@
 
 ###### write a program to check the Armstrong number of n digits.
 
-n=int(input("enter the number of digit you want to enter="))
-x=input("enter the number=")
-s=0
-for i in x:
-    s= s+ (int(i)**n)
-    print(i,s)
+# n=int(input("enter the number of digit you want to enter="))
+# x=input("enter the number=")
+# s=0
+# for i in x:
+#     s= s+ (int(i)**n)
+#     print(i,s)
 
-if int(x)==s:
-    print(s, " is a armstrong number")
-else:
-    print(s, 'is not an armstrong number')
+# if int(x)==s:
+#     print(s, " is a armstrong number")
+# else:
+#     print(s, 'is not an armstrong number')
