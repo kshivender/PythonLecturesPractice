@@ -1,6 +1,6 @@
-f = open('test1.txt', 'r')
-print(f.read())
-f.close()
+# f = open('test1.txt', 'r')
+# print(f.read())
+# f.close()
 
 
 # f = open('test1.txt', 'r')
@@ -18,12 +18,12 @@ f.close()
 
 
 # f = open('test2.txt', 'w')
-# f.write('My country')
+# f.write('My country is beautiful')
 # f.close()
 
 
 
-# f = open('test2.txt', 'a')
+# f = open('test1.txt', 'a')
 # f.write('\n Vegetable')
 # f.write('\n fruits')
 # f.close()
