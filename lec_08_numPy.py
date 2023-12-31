@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 # print(np.ones(5))
 # print(np.array([1,3,7,9]))
 
@@ -34,3 +34,4 @@ import numpy as np
 
 ###creating uninitialized array of specific shape and dtype
 # print(np.empty( [3,3], dtype=int))
+
